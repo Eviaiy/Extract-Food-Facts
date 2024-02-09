@@ -32,7 +32,7 @@ To set up the OCR application on your local machine, follow these steps:
 
 ## Screenshot
 
-![OCR Application Interface](static/Front.png)
+![OCR Application Interface](templates/Front.png)
 
 ## License
 
