@@ -33,7 +33,3 @@ To set up the OCR application on your local machine, follow these steps:
 ## Screenshot
 
 ![OCR Application Interface](templates/Front.png)
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
