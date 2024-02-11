@@ -24,12 +24,6 @@ To set up the OCR application on your local machine, follow these steps:
 3. Navigate to the app's directory and run `flask run` to start the server.
 4. The app will be served at `http://127.0.0.1:5000/` by default.
 
-## Dependencies
-
-- Flask
-- EasyOCR
-- PIL
-
 ## Screenshot
 
 ![OCR Application Interface](templates/Front.png)
