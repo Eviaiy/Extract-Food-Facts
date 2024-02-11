@@ -5,7 +5,7 @@ import io
 app = Flask(__name__)
 
 # Initialize EasyOCR reader with desired languages
-reader = easyocr.Reader(['en', 'fr'])  # Change ['en'] to include other languages as needed, e.g., ['en', 'fr']
+reader = easyocr.Reader(['en', 'fr'])  # e.g., ['en', 'fr']
 
 @app.route('/')
 def home():
