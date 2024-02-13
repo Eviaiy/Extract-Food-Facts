@@ -1,28 +1,36 @@
 # OCR Application
 
-This Optical Character Recognition (OCR) application is designed to extract text from images and return the extracted content as a downloadable text file.
+Extracts text from images and returns the content as a downloadable text file.
 
 ## Features
 
-- Easy to use drag-and-drop interface for image files.
-- Supports 'browse file from device' option for file selection.
-- Quick text extraction with a simple click of the 'EXTRAIRE' button.
+- Drag-and-drop interface for image files.
+- 'Browse file from device' option.
+- Quick text extraction with 'EXTRAIRE' button.
 
 ## How to Use
 
-1. Navigate to the app's webpage.
-2. Drag and drop your image file into the dashed rectangle area or click 'Parcourir...' to select an image file from your device.
-3. Click the 'EXTRAIRE' button to start the text extraction process.
-4. Once the text is extracted, a `.txt` file will be available to download with the recognized text.
+1. Visit the app's webpage.
+2. Drag and drop an image into the rectangle or use 'Parcourir...' to choose a file.
+3. Click 'EXTRAIRE' to extract text.
+4. Download the `.txt` file with the extracted text.
 
 ## Installation
 
-To set up the OCR application on your local machine, follow these steps:
+Ensure Python is installed. Run these commands in your terminal:
 
-1. Clone the repository to your local machine.
-2. Ensure you have Python installed, along with the `flask` and `easyocr` libraries.
-3. Navigate to the app's directory and run `flask run` to start the server.
-4. The app will be served at `http://127.0.0.1:5000/` by default.
+```bash
+# Uninstall existing PyTorch packages
+pip uninstall torch torchvision torchaudio -y
+
+# Install pre-release versions of PyTorch optimized for CPU
+pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+
+# Install Flask, EasyOCR, and dependencies
+pip install Flask==2.1.2 Werkzeug==2.0.2 transformers==4.18.0 Pillow==8.3.2 easyocr>=1.4 numpy
+
+# Access the app at http://127.0.0.1:5000/
+
 
 ## Screenshot
 
