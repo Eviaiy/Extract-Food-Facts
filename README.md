@@ -19,17 +19,16 @@ Extracts text from images and returns the content as a downloadable text file.
 
 Ensure Python is installed. Run these commands in your terminal:
 
-```bash
-# Uninstall existing PyTorch packages
+### Uninstall existing PyTorch packages
 pip uninstall torch torchvision torchaudio -y
 
-# Install pre-release versions of PyTorch optimized for CPU
+### Install pre-release versions of PyTorch optimized for CPU
 pip install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 
-# Install Flask, EasyOCR, and dependencies
+### Install Flask, EasyOCR, and dependencies
 pip install Flask==2.1.2 Werkzeug==2.0.2 transformers==4.18.0 Pillow==8.3.2 easyocr>=1.4 numpy
 
-# Access the app at http://127.0.0.1:5000/
+### Access the app at http://127.0.0.1:5000/
 
 
 ## Screenshot
