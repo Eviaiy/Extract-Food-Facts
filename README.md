@@ -1,4 +1,4 @@
-# OCR Application
+# Nutrition Table extractor
 
 This tool extracts text from images, providing the extracted content as a downloadable text file.
 
