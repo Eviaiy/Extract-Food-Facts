@@ -1,4 +1,4 @@
-# Nutrition Table extractor
+# Extract Food Facts
 
 This tool extracts text from images, providing the extracted content as a downloadable text file.
 
