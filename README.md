@@ -2,6 +2,9 @@
 
 This tool extracts text from images, providing the extracted content as a downloadable text file.
 
+![OCR Application Interface](static/front.png)
+
+
 ## Features
 
 - Drag-and-drop and file browsing options.
@@ -20,10 +23,6 @@ This tool extracts text from images, providing the extracted content as a downlo
 2. Install Python, `flask`, and `easyocr`.
 3. Run `flask run` in the app directory.
 4. Access at `http://127.0.0.1:5000/`.
-
-## Screenshot
-
-![OCR Application Interface](static/front.png)
 
 ## Setup
 
