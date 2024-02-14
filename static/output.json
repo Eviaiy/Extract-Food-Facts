@@ -1,0 +1,45 @@
+Here is the JSON object for the nutritional label you provided:
+
+```json
+{
+  "id": "10092639",
+  "produit": "Granola Biscuits sablés nappés de chocolat au lait (38 %)",
+  "ingredients": "Farine de blé, chocolat au lait (sucre, beurre de cacao, pâte de cacao, lait écrémé en poudre, lactose (de lait), beurre concentré, émulsifiant (lécithines de soja), arôme), huiles végétales (palme, palmiste), sucre, fibres de blé, sirop de sucre son de blé, poudre à lever (carbonates de sodium, carbonates d'ammonium), sel, correcteur d'acidité (acide malique), émulsifiant",
+  "nutrition": {
+    "energie": {
+      "valeur": "2087",
+      "unite": "kcal"
+    },
+    "matières_grasses": {
+      "valeur": "12",
+      "unite": "g",
+      "dont_acides_gras_saturés": {
+        "valeur": "0.89",
+        "unite": "g"
+      }
+    },
+    "glucides": {
+      "valeur": "64.9",
+      "unite": "g",
+      "dont_sucres": {
+        "valeur": "n/a",
+        "unite": "g"
+      },
+      "fibres_alimentaires": {
+        "valeur": "3.89",
+        "unite": "g"
+      }
+    },
+    "protéines": {
+      "valeur": "6.49",
+      "unite": "g"
+    },
+    "sel": {
+      "valeur": "0.729",
+      "unite": "g"
+    }
+  }
+}
+```
+
+Note: I made the assumption that the nutritional information was given for 100g of the product, as this is a standard practice for nutritional labels. I also converted the percentage values to decimal format and removed the trailing zeros. Additionally, the "dont acides gras saturés" (i.e. "including saturated fats") field was nested under the "matières grasses" (i.e. "fats") field, as this is a more standard way of presenting nutritional information. The "glucides" (i.e. "carbohydrates") field includes a nested "dont sucres" (i.e. "including sugars") field, but this information was not provided on the label. Finally, the "énergie" (i.e. "energy") field includes a "valeur" (i.e. "value") field and a "unite" (i.e. "unit") field, as this is a more standard way of presenting nutritional information.

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OCR Application</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Inter:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: url('/static/Home.png');
+            background-size: cover;
+            color: #fff; /* White text color */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.7); /* Text shadow for better readability */
+        }
+        .overlay { /* Overlay to slightly darken the background image for better readability */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.3);
+            z-index: 0;
+        }
+        .content-container {
+            position: relative;
+            z-index: 1;
+            background-color: transparent; /* Transparent background */
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            font-family: 'Noto Serif', serif;
+            font-size: 59px; /* Adjusted size */
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px; /* Adjusted size */
+            margin-bottom: 2em;
+        }
+        input[type="file"] {
+            display: none; /* Hide the default file input */
+        }
+        .custom-file-label { /* Custom file input label styling */
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #8faf69;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .custom-file-label:hover {
+            background-color: #8faf69;
+        }
+        .submit-btn {
+            font-family: 'Inter', sans-serif;
+            background-color: #8faf69;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+            font-size: 16px; /* Match the button font size with subtitle */
+            margin-top: 20px; /* Add margin to the top of the button */
+        }
+        .submit-btn:hover {
+            background-color: #8faf69;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay"></div> <!-- Overlay div -->
+
+<div class="content-container">
+    <h1>When nutrition and data are combined</h1>
+    <p>We are here to help you extract nutrition tables</p>
+    <label for="file" class="custom-file-label">Parcourir...</label>
+    <input type="file" name="file" id="file" form="upload-form">
+    <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="submit" class="submit-btn" value="EXTRAIRE" name="submit">
+    </form>
+</div>
+
+</body>
+</html>
