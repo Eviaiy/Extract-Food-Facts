@@ -1,6 +1,6 @@
 # Extract Food Facts
 
-This tool extracts text from images, providing the extracted content as a downloadable text file.
+This application is designed to seamlessly extract text from images, offering the convenience of converting the extracted content into a downloadable text file. Specializing in the extraction of nutrition tables and information from any food product images, it further enhances the utility by structuring this data into a JSON file format. Leveraging advanced OCR (Optical Character Recognition) technology, the app ensures accuracy and efficiency in data extraction, making the structured information readily accessible and highly usable for data enthusiasts. Whether for personal health tracking, academic research, or commercial analysis, this tool simplifies the process of obtaining and utilizing nutritional data, turning complex images into easily manageable and analyzable datasets.
 
 ![OCR Application Interface](static/front.png)
 
