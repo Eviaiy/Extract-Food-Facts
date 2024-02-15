@@ -17,13 +17,6 @@ Leveraging LLM and OCR technologies, this tool efficiently extracts text from fo
 3. Click 'EXTRAIRE' to extract text.
 4. Download the `.txt` file with the extracted text.
 
-## Installation
-
-1. Clone the repository.
-2. Install Python, `flask`, and `easyocr`.
-3. Run `flask run` in the app directory.
-4. Access at `http://127.0.0.1:5000/`.
-
 ## Setup
 
 ```bash
