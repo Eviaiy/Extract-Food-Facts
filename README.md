@@ -1,6 +1,6 @@
 # Extract Food Facts
 
-Leveraging LLM and OCR technologies, this tool efficiently extracts text from food product images, including nutrition details, and converts it into structured JSON data. It offers precise content extraction in a user-friendly format, ideal for data enthusiasts engaged in health tracking or research.
+Leveraging LLM and OCR technologies, this tool efficiently extracts text from food product images, including nutrition details, and converts it into structured JSON data. It offers precise content extraction in a user-friendly format, ideal for data enthusiasts engaged in health tracking or research. You can access the app in www.extractfoodfacts.com
 
 ![OCR Application Interface](static/front.png)
 
