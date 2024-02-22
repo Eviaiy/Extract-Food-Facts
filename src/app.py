@@ -32,10 +32,10 @@ def get_mistral_response(user_content):
     model = "mistral-small"  # Adjust as necessary
 
     prompt = """
-    Voici le texte extrait d'une image d'une étiquette de valeur nutritive :
+    Here is the text extracted from an image of a nutrition facts label:
     {}
-    Convertissez ces informations en un objet JSON avec les champs suivants :
-    id, produit, ingrédients et nutrition. 
+    Convert this information into a JSON object with the following fields:
+    id, product, ingredients, and nutrition.
     """.format(user_content)
 
     messages = [ChatMessage(role="user", content=prompt)]
